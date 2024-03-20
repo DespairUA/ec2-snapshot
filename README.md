@@ -18,24 +18,24 @@ The script will then delete all associated snapshots taken by the script that ar
 IAM User: This script requires that new IAM user credentials be created, with the following IAM security policy attached:
 
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "Stmt1426256275000",
-            "Effect": "Allow",
-            "Action": [
-                "ec2:CreateSnapshot",
-                "ec2:CreateTags",
-                "ec2:DeleteSnapshot",
-                "ec2:DescribeSnapshots",
-                "ec2:DescribeVolumes"
-            ],
-            "Resource": [
-                "*"
-            ]
-        }
-    ]
-}
+	"Version": "2012-10-17",
+	"Statement": [
+ 		{
+			"Sid": "Stmt1426256275000",
+			"Effect": "Allow",
+			"Action": [
+				"ec2:CreateSnapshot",
+				"ec2:CreateTags",
+				"ec2:DeleteSnapshot",
+				"ec2:DescribeSnapshots",
+				"ec2:DescribeVolumes"
+			],
+			"Resource": [
+				"*"
+			]
+		}	
+  	]
+  }
 
 ===================================
 
