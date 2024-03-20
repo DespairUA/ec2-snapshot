@@ -49,7 +49,7 @@ Default region name: (The region that this instance is in: i.e. us-east-1, eu-we
 Default output format: (Enter "text".)```
 
 cd ~
-wget https://raw.githubusercontent.com/CaseyLabs/aws-ec2-ebs-automatic-snapshot-bash/master/ebs-snapshot.sh
+wget https://raw.githubusercontent.com/DespairUA/ec2-snapshot/master/ebs-snapshot.sh
 chmod +x ebs-snapshot.sh
 mkdir -p /opt/aws
 sudo mv ebs-snapshot.sh /opt/aws/
